@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ste-giraldo/cisco-dna-backup-cleaner)
+
 # cisco_dna_backup_cleaner.sh
 Cisco DNA Center is able to create scheduled backups of the config, devices' software images and so on, but there's not way to remove old backups, hence deleting should be done manually from DNA-C. Pretty annoying...
 I wrote this Bash script to automatically removing old backups basing on a retention period. 
