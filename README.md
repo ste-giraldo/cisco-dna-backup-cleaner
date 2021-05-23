@@ -14,4 +14,5 @@ In my case, I scheduled the backups from DNA-C at Friday 9pm and the script runs
 
 30 23 * * 5 /bin/bash /PATH_TO/scripts/cisco_dna_backup_cleaner.sh >/dev/null 2>&1
 
+**Screenshot of a run:**
 ![Screenshot of a run](https://i.imgur.com/MTdt5dT.jpg)
