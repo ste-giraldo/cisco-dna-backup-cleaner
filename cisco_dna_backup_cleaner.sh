@@ -5,6 +5,7 @@
 # Default-Start:   S
 # Default-Stop:
 # Short-Description:   Delete Cisco DNA Center Scheduled Backups
+# Author:   Stefano Giraldo & Damiano Di Mauro - Lutech S.p.A.
 # Version: 2.0
 ### END INIT INFO
 
