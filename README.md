@@ -7,7 +7,7 @@ I wrote this Bash script to automatically removing old backups basing on a reten
 This script runs on GNU and require "curl" and "jq" packets installed, to working properly. Is intended to run from the path ~/script, but of course can be changed.
 
 Edit the script to change the URLs pointing to the hostname of your DNA-C installation. Please use cluster URL in case of 3 node deployment.
-Change also the base64 autorization key (currently ABC123= as placeholder), matching with your username and password used on DNA-C
+Change also the base64 autorization key (currently ABC123= as placeholder), matching with your username and password used on DNA-C.
 Change also the RETENTION value in order to match your needs.
 
 In my case, I scheduled the backups from DNA-C at Friday 9pm and the script runs from crontab at 11.30pm:
