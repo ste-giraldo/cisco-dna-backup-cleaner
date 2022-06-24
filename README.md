@@ -8,6 +8,7 @@ This script runs on GNU and require "curl" and "jq" packets installed to working
 
 Edit the script to change the URLs pointing to the hostname of your DNA-C installation. Please, use cluster URL in case of 3 nodes deployment.
 Change also the base64 autorization key (currently ABC123= as placeholder), matching with your username and password used on DNA-C. Use a tool like https://www.base64encode.net/ for the encoding. 
+
 Change also the RETENTION value in order to match your needs.
 
 In my case, I scheduled the backups from DNA-C at Friday 9pm and the script runs from crontab at 11.30pm:
